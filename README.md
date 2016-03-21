@@ -35,7 +35,7 @@ int main(void) {
   }
 
   /* out contains the digest, in binary form */
-
+  free(out);
 }
 ```
 
